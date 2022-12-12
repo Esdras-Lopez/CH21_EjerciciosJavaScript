@@ -108,3 +108,15 @@ if (repeticiones > 0){
     console.log("El número " + num + " Se repite "+ repeticiones +" veces");
 
 }else console.log(" No hay números repetidos");
+
+
+/* 
+Ejercicio #4
+
+Escribir una función que tome un arreglo ordenado y devuelva un arreglo completamente desordenado 
+Entrada: [1, 2, 5, 14, 24, 31, 50, 105] Posible salida: [105, 31, 14, 1, 2, 50, 24, 5]
+*/
+
+let nums5 = [1, 2, 5, 14, 24, 31, 50, 105];
+
+console.log(nums5.sort(()=>Math.random()-0.5));
